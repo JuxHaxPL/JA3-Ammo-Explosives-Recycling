@@ -1,0 +1,281 @@
+return PlaceObj('ModDef', {
+	'title', "Ammo and Explosives Recycling (Black Powder Edition)",
+	'description', "Tired of carrying around buckets of ammo for guns you don't use? This mod introduces a comprehensive recycling system for Jagged Alliance 3 (Vanilla Edition)\n\nBreak down your surplus ammunition and explosives into Black Powder, then use those raw materials to manufacture high-grade explosives like TNT, PETN, and C4.\n\nKey Features:\n\n    Ammo Dismantling: Recycle all standard calibers (9mm, .44 CAL, 12 Gauge, 7.62 WP, 7.62 NATO, 5.56, and .50 BMG).\n\n    Explosive Salvage: Dismantle grenades, mortar shells, landmines, and charges.\n\n    Custom Manufacturing: Use your stockpiled Black Powder and Parts to craft TNT, PETN, and C4.\n\n    Balanced Logic: Crafting times and resource costs are scaled based on the tier of the explosive.\n\nHow to use: All recipes are integrated into the existing Craft Ammo and Craft Explosives operations in the sat-view.\n\n\nAMMO DISMANTLING (Yields 1 Black Powder) (Operation: Craft Ammo | Time: 2 Hours)\n\n    9mm (All Types): 100 Rounds\n\n    .44 CAL (All Types): 90 Rounds\n\n    12 Gauge (All Types): 80 Rounds\n\n    7.62 WP (All Types): 70 Rounds\n\n    5.56 NATO (All Types): 60 Rounds\n\n    7.62 NATO (All Types): 50 Rounds\n\n    .50 BMG (All Types): 40 Rounds\n\nEXPLOSIVES DISMANTLING (Yields Black Powder) (Operation: Craft Explosives | Time: 2 Hours)\n\n    C4 Charge: 5 Black Powder\n\n    Mortar Shell (HE): 4 Black Powder\n\n    PETN Charge: 4 Black Powder\n\n    40mm Frag Grenade: 3 Black Powder\n\n    TNT Charge: 3 Black Powder\n\n    Hand Grenades (All): 2 Black Powder\n\n    Landmine: 2 Black Powder\n\n    Mortar Shell (Gas/Smoke): 2 Black Powder\n\n    Pipe Bomb: 2 Black Powder\n\n    40mm Flashbang: 1 Black Powder\n\nEXPLOSIVES MANUFACTURING (Operation: Craft Explosives)\n\n    TNT: 6 Black Powder + 2 Parts (10 Hours)\n\n    PETN: 10 Black Powder + 5 Parts (15 Hours)\n\n    C4: 15 Black Powder + 10 Parts (20 Hours)",
+	'image', "Mod/MtFMc3A/Images/Gemini_Generated_Image_rcy1f8rcy1f8rcy1.jpg",
+	'last_changes', "Vanilla Edition (so far)",
+	'id', "MtFMc3A",
+	'author', "JuxHax",
+	'version', 14,
+	'lua_revision', 233360,
+	'saved_with_revision', 366685,
+	'default_options', {},
+	'has_data', true,
+	'saved', 1767281554,
+	'screenshot1', "Mod/MtFMc3A/Images/Screenshot 2026-01-01 151948.png",
+	'screenshot2', "Mod/MtFMc3A/Images/Screenshot 2026-01-01 151727.png",
+	'affected_resources', {
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_9mm_Basic",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_9mm_AP",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_9mm_HP",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_9mm_Match",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_9mm_Shock",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_9mm_Subsonic",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_9mm_Tracer",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_44CAL_Basic",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_44CAL_AP",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_44CAL_HP",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_44CAL_Match",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_44CAL_Shock",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_12gauge_Buckshot",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_12gauge_Breacher",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_12gauge_Flechette",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_12gauge_Saltshot",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_762WP_Basic",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_762WP_AP",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_762WP_HP",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_762WP_Match",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_762WP_Tracer",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_556_Basic",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_556_AP",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_556_HP",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_556_Match",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_556_Tracer",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_762NATO_Basic",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_762NATO_AP",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_762NATO_HP",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_762NATO_Match",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_762NATO_Tracer",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_50BMG_Basic",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_50BMG_HE",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_50BMG_Incendiary",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_50BMG_SLAP",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_Grenade",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_Frag_Grenade",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_C4",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_PETN",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_TNT",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_MortarShell_HE",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_MortarShell_Gas",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_MortarShell_Smoke",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_40mmFragGrenade",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_40mmFlashbangGrenade",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_ConcussiveGrenade",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_SmokeGrenade",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_TearGasGrenade",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Dismantle_PipeBomb",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Craft_TNT_Custom",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Craft_PETN_Custom",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "CraftOperationsRecipeDef",
+			'Id', "Craft_C4_Custom",
+			'ClassDisplayName', "Crafting operation recipe",
+		}),
+	},
+	'steam_id', "3636642338",
+	'TagSatview&Operations', true,
+	'TagWeapons&Items', true,
+})
